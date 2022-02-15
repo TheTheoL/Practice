@@ -1,0 +1,130 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    border: 10px black;
+}
+
+main {
+    border: 20px black;
+    height: 200vh;
+}
+
+.content-wrap {
+    margin: 10px 90px 0 90px;
+    text-align: center;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  color: black; 
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  position: sticky;
+}
+
+nav {
+    position: sticky;
+}
+
+li {
+    font-size: 22px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 5px black;
+    
+}
+
+.box1,
+.box2,
+.box3 {
+    color: white;
+    
+    padding: 40px;
+}
+
+.box1 {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+
+.box2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.box3 {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+a.button2{
+    display:inline-block;
+    padding:0.5em 3em;
+    border:0.16em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.15s;
+    }
+    a.button2:hover{
+    color:#DDDDDD;
+    border-color:#DDDDDD;
+    }
+    a.button2:active{
+    color:#BBBBBB;
+    border-color:#BBBBBB;
+    }
+    @media all and (max-width:30em){
+        
+    a.button2{
+    display:block;
+    margin:0.4em auto;
+    }
+    }
+
+p {
+    display: block;
+    font-size: 1rem;
+    width: 150px;
+    text-align: left;
+    margin: auto;
+}
+
+/* .thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+} */
